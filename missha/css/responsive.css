@@ -1,0 +1,106 @@
+@media only screen and (max-width: 800px) {
+    .body_inner {
+        padding: 0;
+    }
+    .feature_content img {
+        height: auto;
+        border: none;
+    }
+    .feature-item {
+        padding-top: 4px;
+    }
+    #BodyArea {
+        padding: 0 27px !important;
+    }
+    .col-md-7.rightDetail {
+        padding: 0 15px !important;
+    }
+    a.logo>img {
+        max-width: 100%;
+    }
+    .cartMobile {
+        padding: 10px 13px;
+        font-size: 20px;
+        color: #fff;
+    }
+    .clear-both {
+        clear: both;
+    }
+
+    .row {
+        margin: 0px;
+    }
+    .cartMobile>a {
+        color: #D2D2D2;
+    }
+
+    .loginMobile {
+        padding: 10px 13px;
+        font-size: 20px;
+    }
+
+    .loginMobile>a {
+        color: #D2D2D2;
+    }
+    .side-floating-bar {
+        display: none;
+    }
+
+    .hotline {
+        overflow: visible;
+    }
+
+    .content_hotline {
+        background: none;
+        margin-right: 5px;
+    }
+
+    .opt2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .content_hotline {
+        background: none;
+        margin-right: 5px;
+    }
+
+    .opt2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .content_hotline {
+        background: none;
+        margin-right: 5px;
+    }
+
+    .opt2 {
+        display: block;
+    }
+}
+
+@media screen and (max-device-width: 320px) {
+
+    .content_hotline {
+        background: none;
+        margin-right: 5px;
+    }
+
+    .opt2 {
+        display: block;
+    }
+    .contentPost h1,
+    .contentPost span {
+        white-space: normal;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contentPost h1,
+    .contentPost span {
+        white-space: normal !important;
+    }
+}

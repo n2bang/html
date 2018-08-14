@@ -1,0 +1,524 @@
+h3.titleProduct {
+    max-height: 58px;
+    height: 55px;
+}
+
+.el-show {
+    display: block;
+}
+
+.el-hide {
+    display:
+}
+
+p.saleProduct {
+    height: 17px;
+}
+
+.col-md-3 .functionInner {
+    width: 57%;
+}
+
+div#sidr-id-mega_menu>ul>li>ul>li>a {
+    font-size: 14px !important;
+}
+
+div#sidr-id-mega_menu>ul>li>a {
+    font-size: 15px;
+}
+
+.sidr,
+div#sidr-id-mega_menu>ul>li>ul>li>a,
+div#sidr-id-mega_menu>ul>li>a {
+    font-family: "AvantGardeRegular" !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery li,
+.lSSlideWrapper {
+    border: 1px solid #eeeeee;
+}
+
+.lSSlideOuter .lSPager.lSGallery li {
+    border-radius: 0 !important;
+}
+
+.lSSlideOuter .lSPager.lSGallery {
+    margin-top: 5px !important;
+}
+
+.no-radius {
+    border-radius: 0px;
+}
+
+@media screen and (max-width:480px) {
+    .attributesProduct {
+        width: 100%;
+        border-right: none;
+    }
+    .giftProduct {
+        width: 100%;
+    }
+    #BodyArea {
+        padding: 0 10px !important;
+    }
+    .itemPostC {
+        float: left;
+        width: 50%;
+        padding-left: 4px;
+        padding-right: 4px;
+        height: 226px;
+    }
+
+    map area {
+        width: 100px;
+        height: 100px;
+    }
+    .chuyenkhoan table {
+        width: inherit !important;
+    }
+
+    .chuyenkhoan {
+        padding: 4px;
+    }
+    .contentPost p {
+        text-align: initial;
+        font-family: 'AvantGardeRegular' !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #BodyArea {
+        padding: 0 27px !important;
+    }
+    .detailProduct .row>.col-md-7.rightDetail {
+        padding: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .detailProduct .row>.col-md-5 {
+        padding: 0px;
+    }
+    .detailProduct .row>.col-md-7.rightDetail {
+        clear: both;
+        margin-top: 25px;
+        padding: 0px !important;
+    }
+
+    .tabsProduct {
+        padding: 0px;
+    }
+    img {
+        width: 100%;
+    }
+    .reviewContent img,
+    .tab-content img {
+        width: auto;
+    }
+    .ads-item {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #feature-3 .feature_content {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    #feature-3 .feature_content {
+        float: none;
+        width: 100%;
+    }
+}
+
+.fix-scroll .menu.hidden-sm.hidden-xs {
+    position: fixed;
+    z-index: 888;
+    width: 100%;
+    margin-left: auto;
+    top: 0;
+    left: 0;
+    background: black;
+}
+
+.go-top {
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    opacity: .8;
+    filter: alpha(opacity=20);
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    font-size: 22px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.rateProduct img {
+    width: auto !important;
+}
+
+#mega_menu>ul.Submenu>li a {
+    font-size: 15px !important; // text-transform: none !important;
+}
+
+ul#main_menu li>ul li a {
+    font-size: 15px !important; // text-transform: none !important;
+}
+
+div#mega_menu>ul>li>ul {
+    padding-left: 2px;
+}
+
+li#parentMenu-3>#mega_menu>ul.Submenu>li {
+    padding: 0px 20px;
+}
+
+div#mega_menu>ul.Submenu>li {
+    padding: 5px;
+}
+
+ul#main_menu>li>.mega_menu>ul>li>a {
+    font-size: 13px !important;
+}
+
+.feature-item {
+    padding: 2px;
+    padding-bottom: 0px;
+}
+
+.ads-item:first-child {
+    padding-right: 2px;
+}
+
+.feature_content {
+    padding-bottom: 2px;
+}
+
+.wrapListpost article img {
+    width: 100%;
+}
+
+.Suger_Container {
+    z-index: 99999999;
+}
+
+.design_gird_product img,
+.tab-content img {
+    /*width: 100%;*/
+}
+
+.container.header-bar-inner>.row>.col-md-7 {
+    /*padding-right: 0px;*/
+}
+
+.bodyCart td.imageCart img {
+    /*width: 70%;*/
+}
+
+.modal-body p {
+    /*margin: 0px;*/
+}
+
+.verifyGoverment {
+    background-size: contain;
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'AvantGardeRegular';
+}
+
+.content_address {
+    display: none;
+    background: url(http://wfarm4.dataknet.com/static/resources/icons/set94/5f3e7e13.png) left center no-repeat;
+    padding-left: 40px;
+    color: #FFF;
+    font-family: 'AvantGardeRegular';
+    font-size: 15px;
+    background-size: 35px 35px;
+    text-align: left;
+}
+
+.menu_bar ul li a {
+    padding: 9px 15px 5px 7px;
+    height: 35px;
+}
+
+@media only screen and (max-width: 800px) {
+    .content_hotline {
+        background: url(../images/phone.png) left center no-repeat;
+        margin-right: 5px;
+        float: right;
+    }
+
+    .content_address {
+        display: block;
+    }
+
+    .content_address a {
+        line-height: 35px;
+    }
+    .content_address .opt2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content_address {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .content_address {
+        width: 60%;
+    }
+    .contentPost span {
+        word-break: break-word;
+    }
+}
+
+.map-list {
+    border: 1px solid #acd6d6;
+    height: 500px;
+    overflow: scroll;
+    list-style-type: circle;
+}
+
+.map-item {
+    padding: 5px;
+    border-bottom: 1px solid #acd6d6;
+    cursor: pointer;
+}
+
+.map-item:hover,
+.map-active {
+
+    background: #d7dbdd;
+}
+
+.map-content {
+    display: none;
+}
+
+.padding-f-0 {
+    padding-left: 0px;
+}
+
+.padding-r-0 {
+    padding-right: 0px;
+}
+
+.list-payment li label input {
+    margin-right: 19px;
+    font-size: 26px;
+    margin-left: 2px;
+}
+
+.list-payment li label {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'AvantGardeRegular';
+    padding: 2px 0;
+}
+
+ul.bankList {
+    clear: both;
+    height: 202px;
+    width: 636px;
+}
+
+ul.bankList li {
+    list-style-position: outside;
+    list-style-type: none;
+    cursor: pointer;
+    float: left;
+    margin-right: 0;
+    padding: 5px 2px;
+    text-align: center;
+    width: 90px;
+}
+
+.list-content li {
+    list-style: none outside none;
+    margin: 0 0 10px;
+}
+
+.list-content li .boxContent {
+    display: none;
+    width: 636px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.list-content li.active .boxContent {
+    display: block;
+}
+
+.list-content li .boxContent ul {
+    height: 280px;
+}
+
+i.VISA,
+i.MASTE,
+i.AMREX,
+i.JCB,
+i.VCB,
+i.TCB,
+i.MB,
+i.VIB,
+i.ICB,
+i.EXB,
+i.ACB,
+i.HDB,
+i.MSB,
+i.NVB,
+i.DAB,
+i.SHB,
+i.OJB,
+i.SEA,
+i.TPB,
+i.PGB,
+i.BIDV,
+i.AGB,
+i.SCB,
+i.VPB,
+i.VAB,
+i.GPB,
+i.SGB,
+i.NAB,
+i.BAB {
+    width: 80px;
+    height: 30px;
+    display: block;
+    background: url(https://www.nganluong.vn/webskins/skins/nganluong/checkout/version3/images/bank_logo.png) no-repeat;
+}
+
+i.MASTE {
+    background-position: 0px -31px
+}
+
+i.AMREX {
+    background-position: 0px -62px
+}
+
+i.JCB {
+    background-position: 0px -93px;
+}
+
+i.VCB {
+    background-position: 0px -124px;
+}
+
+i.TCB {
+    background-position: 0px -155px;
+}
+
+i.MB {
+    background-position: 0px -186px;
+}
+
+i.VIB {
+    background-position: 0px -217px;
+}
+
+i.ICB {
+    background-position: 0px -248px;
+}
+
+i.EXB {
+    background-position: 0px -279px;
+}
+
+i.ACB {
+    background-position: 0px -310px;
+}
+
+i.HDB {
+    background-position: 0px -341px;
+}
+
+i.MSB {
+    background-position: 0px -372px;
+}
+
+i.NVB {
+    background-position: 0px -403px;
+}
+
+i.DAB {
+    background-position: 0px -434px;
+}
+
+i.SHB {
+    background-position: 0px -465px;
+}
+
+i.OJB {
+    background-position: 0px -496px;
+}
+
+i.SEA {
+    background-position: 0px -527px;
+}
+
+i.TPB {
+    background-position: 0px -558px;
+}
+
+i.PGB {
+    background-position: 0px -589px;
+}
+
+i.BIDV {
+    background-position: 0px -620px;
+}
+
+i.AGB {
+    background-position: 0px -651px;
+}
+
+i.SCB {
+    background-position: 0px -682px;
+}
+
+i.VPB {
+    background-position: 0px -713px;
+}
+
+i.VAB {
+    background-position: 0px -744px;
+}
+
+i.GPB {
+    background-position: 0px -775px;
+}
+
+i.SGB {
+    background-position: 0px -806px;
+}
+
+i.NAB {
+    background-position: 0px -837px;
+}
+
+i.BAB {
+    background-position: 0px -868px;
+}
+
+ul.cardList li {
+    cursor: pointer;
+    float: left;
+    margin-right: 0;
+    padding: 5px 4px;
+    text-align: center;
+    width: 90px;
+}
