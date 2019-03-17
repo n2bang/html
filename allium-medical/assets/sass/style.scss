@@ -58,9 +58,11 @@ body {
     font-size: 18px;
     text-align: center;
   }
-  .wg-img {
-    li {
-
+  .widget-area {
+    width: 100%;
+    .wg-img {
+      width: 20%;
+      float: left;
     }
   }
 }
@@ -81,11 +83,44 @@ body {
     text-align: center;
   }
 }
-
-
-
-
-
+#footer {
+  .footer-bottom {
+    color: #666666;
+    background-color: #80d4de;
+    border-top: 1px solid #f7f7f7;
+    padding: 20px 0;
+  } 
+}
+.widget-area {
+  padding: 20px 30px;
+  .widget-title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}
+.bng-checklist {
+  .bng-li-item {
+    line-height: 26px;
+    padding: 6px 0;
+    .icon-wrapper {
+      float: left;
+      width: 27px;
+      height: 27px;
+      display: table-cell;
+      text-align: center; 
+      vertical-align: middle;
+      margin-right: 10px;
+      &.circle {
+        background: #3bafbf;
+        color: white;
+        border-radius: 50%;
+      }
+    }
+    .bng-li-item-content {
+      margin-left: 37px;
+    }
+  }
+}
 
 
 

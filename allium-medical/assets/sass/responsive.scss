@@ -1,24 +1,19 @@
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
-    
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+/* Small devices (landscape phones, 576px and up) */ 
+@media only screen and (min-width : 576px) {
 
 
 }
-/* Small Devices, Tablets */
+/* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width : 768px) {
     
 }
 
-/* Medium Devices, Desktops */
+/* Large devices (desktops, 992px and up) */
 @media only screen and (min-width : 992px) {
     
 }
 
-/* Large Devices, Wide Screens */
+/* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width : 1200px) {
   .welcome-group {
     .wg-title {
@@ -50,6 +45,72 @@
     }
     .a-text {
       line-height: 1.9;
+    }
+  }
+  .menu-search {
+    &.menu-search-open {
+      .bng-custom-menu-item-contents {
+        display: block;
+      }
+    }
+    .bng-custom-menu-item-contents {
+      display: none;
+      background-color: rgba(59,175,191,0.8);
+      border-color: rgba(255,255,255,0.58);
+      padding: 25px;
+      width: calc(250px + 1.43 * 50px);
+      position: absolute;
+      top: 120px;
+      right: 0;
+      .bng-search-form-content {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+      }
+      input {
+        border-right: none;
+        border: 1px solid #d2d2d2;
+        width: 100%;
+        height: 50px;
+      }
+      input[type="text"] {
+        padding: 0 15px;
+        border-right: 0;
+        background-color: rgba(255,255,255,0);
+        outline: 0;
+      }
+      .bng-search-field {}
+      .screen-reader-text {
+        display: none;
+      }
+      .bng-search-button {
+        input[type="submit"] {
+          height: 50px;
+          width: 50px;
+          line-height: 50px;
+          background: #000;
+          border: none;
+          border-radius: 0;
+          color: #fff;
+          font-size: 1em;
+          margin: 0;
+          padding: 0;
+          text-indent: 0;
+          cursor: pointer;
+          font-family: icomoon;
+          font-weight: 400;
+          text-shadow: none;
+          -webkit-font-smoothing: antialiased;
+          transition: all .2s;
+        }
+      }
+    }
+    .bng-search-field {
+      -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
     }
   }
 }
