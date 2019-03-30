@@ -25,12 +25,15 @@ paths.concatCss = [
 //vendor path 
 paths.vendorCss = [
     "./node_modules/bootstrap/dist/css/bootstrap.css",
-    "./node_modules/font-awesome/css/font-awesome.css"
+    "./node_modules/font-awesome/css/font-awesome.css",
+    "./node_modules/owl.carousel/dist/assets/owl.carousel.css",
+    "./node_modules/owl.carousel/dist/assets/owl.theme.default.css",
 ];
 
 paths.vendorJs = [     
     "./node_modules/jquery/dist/jquery.js",    
-    "./node_modules/bootstrap/dist/js/bootstrap.js"
+    "./node_modules/bootstrap/dist/js/bootstrap.js",
+    "./node_modules/owl.carousel/dist/owl.carousel.js",
     //"./node_modules/jquery-validation/dist/jquery.validate.js",
     //"./node_modules/jquery-validation/dist/additional-methods.js"
 ];
