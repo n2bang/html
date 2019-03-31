@@ -6,3 +6,10 @@
 /allium-medical/js/site.min.js
 /allium-medical/js/vendor.min.js
 /.phpintel
+/thecrafthouse/node_modules
+/thecrafthouse/package-lock.json
+/thecrafthouse/fonts
+/thecrafthouse/css/site.min.css
+/thecrafthouse/css/vendor.min.css
+/thecrafthouse/js/site.min.js
+/thecrafthouse/js/vendor.min.js
