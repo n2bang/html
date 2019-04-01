@@ -73,6 +73,37 @@ var Site = {
     }
   },
 
+  testimonialOwl: function() {
+    if ($('.testimonials').length > 0) {
+      $('.testimonials').owlCarousel({
+        dots: false,
+        loop:false,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+          0:{
+            items:1,
+            nav:true
+          },
+          600:{
+            items:1,
+            nav:false
+          },
+          1000:{
+            items:2,
+            nav:true,
+            loop:false
+          },
+          1450:{
+            items:2,
+            nav:true,
+            loop:false
+          }
+        }
+      });
+    }
+  },
+
   productGallery: function() {
     var sync1 = $("#sync1");
     var sync2 = $("#sync2");
@@ -153,11 +184,27 @@ var Site = {
     }
   },
 
+  language: function() {
+    $('.language a').on('click', function(e){
+      e.preventDefault();
+      var t = $(this);
+      if (!t.hasClass('on')) {
+        t.addClass('on');
+        t.parent().find('ul').show();
+      } else {
+        t.removeClass('on');
+        t.parent().find('ul').hide();
+      }
+    });
+  },
+
   setup: function() {
     this.handleClickIconSearch();
     this.productSlider();
     this.productGallery();
     this.partnerOwl();
+    this.testimonialOwl();
+    this.language();
   },
   
   run: function() {
