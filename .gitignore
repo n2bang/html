@@ -13,3 +13,9 @@
 /thecrafthouse/css/vendor.min.css
 /thecrafthouse/js/site.min.js
 /thecrafthouse/js/vendor.min.js
+/threejs/node_modules
+/threejs/package-lock.json
+/threejs/css/site.min.css
+/threejs/css/vendor.min.css
+/threejs/js/site.min.js
+/threejs/js/vendor.min.js
